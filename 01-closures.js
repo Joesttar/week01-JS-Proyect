@@ -4,6 +4,8 @@
 
 // Definimos una funcion que actua como una "fabrica" y al invocarla,
 // Crea Execute Context que devuelve un objeto con dos funciones: incrementar y obtenerValor.
+
+
 function crearContador(nombre){
     let cuenta = 0; // Esta variable es parte del entorno de la función interna
 
